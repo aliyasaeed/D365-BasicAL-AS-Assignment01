@@ -1,17 +1,17 @@
-page 90207 VariablePractice
+page 90210 Expressions
 {
     PageType = Card;
     ApplicationArea = All;
     UsageCategory = Administration;
 
-
     actions
     {
         area(Processing)
         {
-            action(Result)
+            action(Execute)
             {
                 ApplicationArea = All;
+                Caption = 'Execute';
 
                 trigger OnAction()
                 begin
@@ -25,5 +25,4 @@ page 90207 VariablePractice
         Value1: Integer;
         Value2: Integer;
         Result: Boolean;
-
 }
